@@ -26,3 +26,66 @@ body {
   box-shadow: 2px 4px 16px rgba(0,0,0,.06);
   border-radius: 4px;
 }
+
+/* My solution */
+
+.header {
+  display: flex;
+  align-items: center;
+  font-weight: bold;
+  height: 50px;
+  padding-left: 10px;
+  flex: none;
+}
+
+body{
+  display: flex;
+  flex-direction: column;
+  max-height: 100vh;
+}
+
+.content {
+  display: flex;
+  flex: 1;
+}
+
+.cards {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 32px;
+}
+
+.card {
+  width: 300px;
+  font-size: 16px;
+  padding: 16px;
+  margin: 16px;
+}
+
+.sidebar {
+  max-width: 200px;
+  flex-shrink: 0;
+  padding: 16px;
+}
+
+.footer {
+  display: flex;
+  margin-top: auto;
+  align-items: center;
+  justify-content: center;
+}
+
+ul {
+  padding: 0;
+  margin: 0;
+}
+
+li {
+  list-style-type: none;
+  padding-bottom: 5px;
+}
+
+a {
+  text-decoration: none;
+  color: white;
+}
