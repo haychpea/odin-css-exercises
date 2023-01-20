@@ -25,3 +25,64 @@ input {
   width: 400px;
   margin-bottom: 16px;
 }
+
+/* My Solution */
+
+body {
+  display: flex;
+  flex-direction: column;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.header .right-links, .header .left-links {
+  display: flex;
+  gap: 15px;
+  margin-left: 15px;
+  margin-right: 15px;
+}
+
+.content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  flex: 1;
+}
+
+ul {
+  padding: 0;
+}
+
+li {
+  list-style-type: none;
+}
+
+a {
+  color: black;
+  text-decoration: none;
+}
+
+.footer {
+  display: flex;
+  justify-content: space-between;
+  margin-top: auto;
+  background-color: lightgray;
+}
+
+.footer .right-links, .footer .left-links {
+  display: flex;
+  gap: 15px;
+  margin-left: 15px;
+  margin-right: 15px;
+}
+
+/* 
+I checked the solution css and can see where I can
+simplify my answer, need to get used to looking at like
+for like elements instead of focusing on the div containers
+*/
